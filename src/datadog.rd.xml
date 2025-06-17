@@ -1,0 +1,9 @@
+<Directives xmlns="http://schemas.microsoft.com/netfx/2013/01/metadata">
+    <Application>
+        <Assembly Name="Datadog.Trace" Dynamic="Required All" />
+        <!-- Remova a referência ao MSBuild assembly -->
+        <!-- <Assembly Name="Datadog.Trace.MSBuild" Dynamic="Required All" /> -->
+        <Assembly Name="System.Diagnostics.DiagnosticSource" Dynamic="Required All" />
+        <Assembly Name="System.Collections.Immutable" Dynamic="Required All" />
+    </Application>
+</Directives>

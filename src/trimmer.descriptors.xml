@@ -1,0 +1,9 @@
+<linker>
+    <assembly fullname="Datadog.Trace">
+        <type fullname="Datadog.Trace.*" preserve="all" />
+    </assembly>
+    <!-- Remova a referência ao MSBuild assembly que está causando problemas -->
+    <!-- <assembly fullname="Datadog.Trace.MSBuild">
+        <type fullname="Datadog.Trace.*" preserve="all" />
+    </assembly> -->
+</linker>
